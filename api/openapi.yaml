@@ -1,0 +1,14 @@
+openapi: 3.1.0
+info:
+  title: Catalog API
+  version: 0.1.0
+  description: |
+    API for saving social media posts and searching them with AI.
+    Endpoints will be defined once the user workflows in docs/specs/ are written.
+
+servers:
+  - url: http://localhost:8080
+    description: Local development
+
+# OpenAPI 3.1 requires at least one of paths, components or webhooks.
+paths: {}
